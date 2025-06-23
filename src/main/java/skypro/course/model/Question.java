@@ -3,8 +3,8 @@ package skypro.course.model;
 import java.util.Objects;
 
 public class Question {
-    private final String question;
-    private final String answer;
+    private String question;
+    private String answer;
 
     public Question(String question, String answer) {
         this.question = question;

@@ -35,6 +35,7 @@ class ExaminerServiceImplTest {
                 .thenReturn(new Question("Q2", "A2"));
 
         Collection<Question> result = examinerService.getQuestions(2);
+
         assertEquals(2, result.size());
         assertTrue(result.containsAll(questions));
     }
